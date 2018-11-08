@@ -451,3 +451,4 @@ Mehmet Mustafa Aymayan
 Enes Karanfil
 Enes Yüksekkolaşin
 İlker Polat
+Veli Durmuşcan
