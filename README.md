@@ -448,3 +448,4 @@ Please report any bugs or submit feature requests to [XChart's Github issue trac
 -----------Grup Uyeleri---------------
 Onur Albayrak
 Mehmet Mustafa Aymayan
+Enes Karanfil
