@@ -446,4 +446,5 @@ Please report any bugs or submit feature requests to [XChart's Github issue trac
 [Build History](https://travis-ci.org/timmolter/XChart/builds)  
 
 -----------Grup Uyeleri---------------
+Onur Albayrak
 Mehmet Mustafa Aymayan
