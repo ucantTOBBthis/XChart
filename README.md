@@ -445,10 +445,10 @@ Please report any bugs or submit feature requests to [XChart's Github issue trac
 [![Build Status](https://travis-ci.org/timmolter/XChart.png?branch=develop)](https://travis-ci.org/timmolter/XChart.png)  
 [Build History](https://travis-ci.org/timmolter/XChart/builds)  
 
------------Grup Uyeleri---------------
-Onur Albayrak
-Mehmet Mustafa Aymayan
-Enes Karanfil
-Enes Yüksekkolaşin
-İlker Polat
-Veli Durmuşcan
+-----------Team Members---------------
+1-Onur Albayrak
+2-Mehmet Mustafa Aymayan
+3-Enes Karanfil
+4-Enes Yuksekkolasin
+5-Ilker Polat
+6-Veli Durmuscan

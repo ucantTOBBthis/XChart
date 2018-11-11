@@ -152,7 +152,7 @@ public class PlotContent_Pie<ST extends PieStyler, S extends PieSeries>
     double startAngle = pieStyler.getStartAngleInDegrees() + 90;
 
     boolean toolTipsEnabled = chart.getStyler().isToolTipsEnabled();
-    
+
     map = chart.getSeriesMap();
     for (S series : map.values()) {
 
@@ -220,13 +220,13 @@ public class PlotContent_Pie<ST extends PieStyler, S extends PieSeries>
           double percentage = y.doubleValue() / total * 100;
           annotation = df.format(percentage) + "%";
         } else if (pieStyler.getAnnotationType() == AnnotationType.LabelAndValue) {
-            if (pieStyler.getDecimalPattern() != null) {
-    		    DecimalFormat df = new DecimalFormat(pieStyler.getDecimalPattern());
-    		    annotation = series.getName() +" ("+ df.format(y)+")";
-    		  } else {
-    		    annotation = series.getName() +" ("+y.toString()+")";
-    		  }
-            }
+          if (pieStyler.getDecimalPattern() != null) {
+            DecimalFormat df = new DecimalFormat(pieStyler.getDecimalPattern());
+            annotation = series.getName() + " (" + df.format(y) + ")";
+          } else {
+            annotation = series.getName() + " (" + y.toString() + ")";
+          }
+        }
 
         TextLayout textLayout =
             new TextLayout(
